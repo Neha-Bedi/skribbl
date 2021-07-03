@@ -1,15 +1,18 @@
 import React, { Component } from 'react';
 import Header from "../Header/Header"
 import Box from "../Box/Box"
+import "../FrontPage/FrontPage.css"
 
 class FrontPage extends Component {
     state = {  }
     render() { 
         return (
-            <React.Fragment>
-                <Header>header</Header>
-                <Box>box</Box>
-            </React.Fragment>
+            <div className="frontPage">
+                <Header className="frontPageChild"></Header>
+                <Box className="frontPageChild"></Box>
+            </div>
+                
+            
             );
     }
 }

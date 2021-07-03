@@ -1,9 +1,14 @@
 import React, { Component } from 'react';
+import "../AvatarOption/AvatarOption.css"
 
 class AvatarOption extends Component {
     state = {  }
     render() { 
-        return ( <img className="logo logoBig" src="../public/dog.gif"></img> );
+        return ( 
+            <div>
+                ap
+            </div>
+        )
     }
 }
  
