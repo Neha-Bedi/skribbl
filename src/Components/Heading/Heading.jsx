@@ -8,5 +8,5 @@ class Heading extends Component {
          );
     }
 }
- 
+
 export default Heading;
