@@ -2,11 +2,11 @@
   box-sizing: border-box;
   margin : 0px ;
   padding : 0px;
-  background-image: url("bg_1.jpg");
+
 }
 
 body{
  
-  /* background-size: cover; */
+  background-image: url("bg_1.jpg");
  
 }

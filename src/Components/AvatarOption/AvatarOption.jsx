@@ -5,8 +5,11 @@ class AvatarOption extends Component {
     state = {  }
     render() { 
         return ( 
-            <div>
-                ap
+            <div className="select-me">
+                <div className="arrow left"></div>
+                <img className="avatar-box" src="horse.gif" alt=""></img>
+                <div className="arrow right"></div>
+                {/* <img src="arrow.gif"></img> */}
             </div>
         )
     }
